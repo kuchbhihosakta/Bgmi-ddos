@@ -10,10 +10,10 @@ from threading import Timer
 import pytz
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7280461707:6680756893:AAGzgRTCbze7yDHuzhhAU2d681LwK148-gw')
+bot = telebot.TeleBot('6646865765:AAEDfuLeJAb0-Ziz-eKBkwP8c-FGX9Ob6vc')
 
 # Admin user IDs
-admin_id = ["7154407009"]
+admin_id = ["5373224722"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -502,3 +502,4 @@ Timer(60, remove_expired_users).start()  # Check every minute
 
 # Start the bot
 bot.polling()
+
